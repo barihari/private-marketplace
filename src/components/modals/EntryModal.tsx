@@ -1,5 +1,4 @@
 import { usePrototypeStore } from '../../store/usePrototypeStore'
-import { formatCurrency } from '../../utils/currency'
 import { mortgageOptions } from '../../constants/mortgageOptions'
 import { ChevronDown } from 'lucide-react'
 

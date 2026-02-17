@@ -22,7 +22,6 @@ const GetQuoteModal = () => {
 
   const allOffers = [...offers, ...additionalOffers]
   const visibleOffers = showMoreInModal ? allOffers : offers
-  const selectedOffers = allOffers.filter(o => modal.selectedLenders.includes(o.id))
 
   const handleStep1Continue = () => {
     if (modal.selectedLenders.length > 0) {

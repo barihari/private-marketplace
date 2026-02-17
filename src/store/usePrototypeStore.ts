@@ -468,16 +468,16 @@ export const usePrototypeStore = create<PrototypeStore>((set, get) => ({
           leads: [
             {
               id: 'lead-1',
-              firstName: 'James',
-              lastName: 'Walker',
-              email: 'james.walker@email.com',
+              firstName: 'Stacy',
+              lastName: 'Barnes',
+              email: 'stacy.barnes@email.com',
               status: 'Pending',
               sentAt: twoHoursAgo,
               linkUrl: 'https://marketplace.bankrate.com/invite/abc123',
               formSnapshot: {
-                firstName: 'James',
-                lastName: 'Walker',
-                email: 'james.walker@email.com',
+                firstName: 'Stacy',
+                lastName: 'Barnes',
+                email: 'stacy.barnes@email.com',
                 zipCode: '10011',
                 propertyValue: '$850,000',
                 loanAmount: '$680,000',
